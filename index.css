@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #555;
+    background-color: #0a0a0a;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -168,7 +168,7 @@ h2{
 
 /* inicio footer */
 .container-f{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 2em ;
     text-align: center;
 }
@@ -179,7 +179,7 @@ i{
 }
 
 p{
-    color: #000000;
+    color: #ffffff;
     font-family: 'Roboto';
     text-align: center;
 }
