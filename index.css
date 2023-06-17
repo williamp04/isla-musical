@@ -122,6 +122,8 @@ header ul li a {
 .card-img{
     filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.7));
     width: 100%;
+    text-align: center;
+    margin-top: 2em;
 }
 
 .card-content{
@@ -177,7 +179,7 @@ i{
 }
 
 p{
-    color: #fff;
+    color: #000000;
     font-family: 'Roboto';
     text-align: center;
 }

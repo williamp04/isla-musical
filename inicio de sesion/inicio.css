@@ -24,7 +24,7 @@ table/*Le pongo borde y color a la tabla*/
 {
     
     border: 1px solid #030711;
-    background-color: aqua;/*Background para darle color al fondo*/
+    background-color: rgb(85, 109, 109);/*Background para darle color al fondo*/
     background-image: url(../img/candado.png);
     background-position: center;/*Ubico la imagen en el centro*/
     background-size: cover;/*Abarca todo el fondo*/
