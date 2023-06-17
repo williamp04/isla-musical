@@ -12,122 +12,188 @@
 
 <body>
     <header>
-        <div>
-            <img src="https://i.postimg.cc/cH6w9J8f/Whats-App-Image-2023-05-19-at-8-02-49-PM.jpg" alt="" height="200">
+        <a href="#"><img src="./imagenes/logo-removebg-preview.png" class="logo" width="60"></a>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#Artistas destacados">Artistas Destacados</a></li>
+                <li><a href="#Géneros populares">Géneros Populares</a></li>
+                <li><a href="#">Artistas</a></li>
+                <li><a href="./inicio de sesion/inicio.html">Inicio de sesion</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar">
+            <button id="search-button" type="button">Buscar</button>
         </div>
-        <form class="barra-busqueda">
-            <input type="text" name="busqueda" placeholder="Buscar..." />
-            <button type="submit">Buscar</button>
-        </form>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#Artistas destacados">Artistas Destacados</a></li>
-            <li><a href="#Géneros populares">Géneros Populares</a></li>
-            <li><a href="#">Artistas</a></li>
-            <li><a href="#">Mis Favoritos</a></li>
-        </ul>
-    </nav>
+    <article class="main-banner">
+        <img src="./imagenes/imagen_2023-06-16_230109522.png" alt="" class="img-fluid img">
+        <section class="container marco">
+            <!-- container sirve para que este centrado -->
+            <section class="row">
+                <!-- row es para que este en fila -->
+                <div class="main-banner-data">
+                    <h1 class="titulo">¡Descubre la mejor página de música en línea!</h1>
 
-    <main>
-        <div>
-            <p>
-                ¡Descubre la mejor página de música en línea!
-                <br> Sumérgete en un mundo lleno de ritmo, melodía y emociones.
-                <br> En nuestra página de música, encontrarás todo lo que necesitas para disfrutar de tus canciones
-                favoritas y descubrir nuevos artistas.
-                <br> Experimenta la libertad de explorar diferentes géneros musicales, desde el pop más actual hasta los
-                clásicos atemporales. Navega por nuestras extensas bibliotecas de canciones y álbumes, y crea tus
-                propias listas de reproducción personalizadas para cada ocasión.
-            </p>
-        </div>
-        <div class="contenedor-lista">
-            <ul>
-                <li>
-                    <a href="https://los40.com/los40/2023/03/12/musica/1678452012_947456.html">Lista de Musica del 2023</a> </li>
-                <li>
-                   <a href="https://los40.com/los40/2022/02/21/musica/1645458864_383631.html">Lista de Musica del 2022</a> </li>
-                <li>
-                   <a href="https://los40.com/los40/2021/12/14/musica/1639499589_900221.html">Lista de Musica del 2021</a> </li>
-            </ul>
-        </div>
-        <section>
-            <h2>Explora nueva música</h2>
-            <p> ¡Bienvenido a Explora Nueva Música! Sumérgete en un viaje auditivo único mientras exploras lo mejor de
-                la música de todas partes del mundo. En nuestra página, encontrarás una increíble variedad de géneros,
-                artistas y canciones para satisfacer todos tus gustos musicales.
-                <br> ¿Estás buscando expandir tu horizonte musical? Descubre nuevas melodías, ritmos cautivadores y
-                letras inspiradoras que te llevarán a lugares inexplorados dentro del mundo de la música. Desde artistas
-                emergentes hasta leyendas consagradas, te brindamos una plataforma para descubrir talento y escuchar las
-                últimas tendencias en la industria musical.
-            </p>
+                    <p class="texto"><br>Sumérgete en un mundo lleno de ritmo, melodía y emociones.
+                        <br> En nuestra página de música, encontrarás todo lo que necesitas para disfrutar de tus canciones
+                        favoritas y descubrir nuevos artistas.
+                        <br> Experimenta la libertad de explorar diferentes géneros musicales, desde el pop más actual hasta los
+                        clásicos atemporales. Navega por nuestras extensas bibliotecas de canciones y álbumes, y crea tus
+                        propias listas de reproducción personalizadas para cada ocasión.</p>
+
+                </div>
+
+            </section>
         </section>
+    </article>
 
-        <section>
-            <h2 id="Géneros populares">Géneros populares</h2>
-            <div class="Generos">
-<ul>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Pop</a>
-    </li>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Hip-hop</a>
-    </li>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Rock</a>
-    </li>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Rap</a>
-    </li>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">EDM (Electronic Dance Music)</a>
-    </li>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Reggaeton</a>
-    </li>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Contry</a>
-    </li>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Hazz</a>
-    </li>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">R&B/Soul</a>
-    </li>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Alternative</a>
-    </li>
-    <li>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Latin</a>
-    </li>
-</ul>
+    <section id="promos_section"><h2 class="subtitulo">Generos en Tendencias</h2>
+        <br>
+        <div class="container">
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./imagenes/rap.png" alt="" class="img-fluid" width="200">                    
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title"> <br> RAP</h3>
+                        <a href="#" class="card-boton">Conocer más</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./imagenes/k-pop.png" alt="" class="img-fluid" width="200">                    
+                    </div> 
+                    <div class="card-content">
+                        <h3 class="card-title">k-POP <br> </h3>
+                        <a href="#" class="card-boton">Conocer más</a>
+                    </div>               
+                </div>
+    
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./imagenes/rock.png" alt="" class="img-fluid"  width="200">                    
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">ROCK <br></h3>
+                        <a href="#" class="card-boton">Conocer más</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./imagenes/musica electronica.png" alt="" class="img-fluid" width="200">                    
+                    </div> 
+                    <div class="card-content">
+                        <h3 class="card-title"> Electronica <br> </h3>
+                        <a href="#" class="card-boton">Conocer más</a>
+                    </div>              
+                </div>
+            </div>
         </div>
     </section>
 
-        <section>
-            <h2 id="Artistas destacados">Artistas destacados</h2>
+    <section id="promos_section"><h2 class="subtitulo">Generos en Tendencias</h2>
+        <br>
+        <div class="container">
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./imagenes/rap.png" alt="" class="img-fluid" width="200">                    
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title"> <br> RAP</h3>
+                        <a href="#" class="card-boton">Conocer más</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./imagenes/k-pop.png" alt="" class="img-fluid" width="200">                    
+                    </div> 
+                    <div class="card-content">
+                        <h3 class="card-title">k-POP <br> </h3>
+                        <a href="#" class="card-boton">Conocer más</a>
+                    </div>               
+                </div>
+    
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./imagenes/rock.png" alt="" class="img-fluid"  width="200">                    
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">ROCK <br></h3>
+                        <a href="#" class="card-boton">Conocer más</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./imagenes/musica electronica.png" alt="" class="img-fluid" width="200">                    
+                    </div> 
+                    <div class="card-content">
+                        <h3 class="card-title"> Electronica <br> </h3>
+                        <a href="#" class="card-boton">Conocer más</a>
+                    </div>              
+                </div>
+            </div>
+        </div>
+    </section>
 
-        </section>
+     <!-- inicio footer -->
+     <footer>
+        <div class="container-f">
+            <section class="row">
+                <section class="col-xs-12 col-sm-12 col-md-1">
+                    <i class="fa-sharp fa-solid fa-mobile-screen-button"></i>
+                </section>
+    
+                <section class="col-xs-12 col-sm-12 col-md-3">
+                    <h3 class="titulo-f">Contactos</h3>
+                    <p class="p-f">+51 998309 006</p>
+                    <p class="p-f">+51 953 841 222 (whatsapp)</p>
+                </section>
+    
+                <section class="col-xs-12 col-sm-12 col-md-1">
+                    <i class="fa-solid fa-envelope"></i>
+                </section>
+    
+                <section class="col-xs-12 col-sm-12 col-md-3">
+                    <h3 class="titulo-f">E-Mail</h3>
+                    <p class="p-f">isla musical@certus.edu.pe</p>
+                </section>
+    
+                <section class="col-xs-12 col-sm-12 col-md-1">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                </section>
+    
+                <section class="col-xs-12 col-sm-12 col-md-3">
+                    <h3 class="titulo-f">Dirección</h3>
+                    <p class="p-f">Lim-Perú</p>
+                </section>
+            </section>
+        </div>
+        <div class="container-fo">
+            <secton class="row">
+                <section class="col-xs-12 col-sm-12 col-md-6">
+                    <p class="pa-f">LENGUAJES PARA DES Y SOP SIST @2022-Todos los derechos reservados</p>
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-6">
+                    <p class="pa-f">Desarrollado por <span>chamo y sus amigos</span></p>
+                </section>
+            </secton>
+        </div>
+        </footer>
+        <!-- fin de footer -->
 
-    </main>
-<div class="Redes">
-    <ul>
-        <li>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
-        </li>
-        <li>
-            <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"></i></a>
-        </li>
-    </ul>
-</div>
-    <footer>
-        <p>&copy; 2023 Isla de la Musica. Todos los derechos reservados.</p>
-    </footer>
 </body>
 
 </html>
